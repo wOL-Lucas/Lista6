@@ -4,7 +4,7 @@ package Exercicio2;
 import Exercicio1.Exercicio1;
 import java.util.Scanner;
 
-public class main {
+public class Exercicio2 {
     public static void main(String[]args) {
         int[][] voxcel = Exercicio1.get_voxcel(new Scanner(System.in));
         int biggest_value = 0;
