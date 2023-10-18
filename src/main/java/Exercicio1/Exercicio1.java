@@ -32,6 +32,7 @@ public class Exercicio1 {
     }
 
     public static int[][] get_voxcel(Scanner scanner){
+        System.out.println("Enter the voxcel (4x4):");
         int [][] voxcel = new int[4][4];
         for(int i = 0;i < 4;i++){
             voxcel[i] = get_row(scanner);
