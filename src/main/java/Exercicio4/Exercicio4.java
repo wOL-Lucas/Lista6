@@ -1,10 +1,10 @@
 /*Faça um programa que leia duas matrizes A e B de tamanho 2 x 2 e calcule C = A ∗ B*/
-package Exercicio3;
+package Exercicio4;
 import Exercicio1.Exercicio1;
 
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio4 {
 
     public static int[][] multiply_matrix(int[][] matrix_a, int[][] matrix_b){
         int[][] matrix_c = new int[2][2];
