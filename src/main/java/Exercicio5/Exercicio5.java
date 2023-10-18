@@ -1,12 +1,12 @@
 /*Faça um programa que leia uma matriz A de tamanho 3 x 3 e calcule B= A2. Onde B é uma nova matriz.*/
-package Exercicio4;
+package Exercicio5;
 
 
 import Exercicio1.Exercicio1;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Exercicio5 {
     public static int[][] multiply_matrix(int[][] matrix_a){
         int[][] matrix_c = new int[3][3];
         for(int i = 0; i < 3; i ++){
